@@ -1,0 +1,5 @@
+applications:
+  - name: next-js-app
+    path: build
+    host: next-js-app
+    memory: 64M
