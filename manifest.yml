@@ -1,4 +1,6 @@
 applications:
   - name: next-js-app
-    host: next-js-app
     memory: 64M
+    disk_quota: 256M
+    buildpacks:
+    - nodejs_buildpack
